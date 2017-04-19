@@ -1,0 +1,191 @@
+.personal-session {
+	position:relative;
+	float:right;
+	border: solid golden 1px;
+	margin:10px;
+}
+
+
+
+#account {
+	text-decoration:underline;
+}
+
+h1 {
+	text-align: center;
+}
+.inner-wrap {
+	margin: auto;
+    width: 50%;
+    height: 40%;
+    border: 4px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px #888888;
+	
+    overflow: hidden;
+    text-align:center;
+    font-family: "Mono";
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+#black {
+	background: #8B0000;
+	position: relative;
+    width: 100%;
+    height: 5px;
+    color: white;
+    float: left;
+
+}
+
+#location {
+	background: #8B0000;
+    width: 65.5%;
+    height: 25px;
+	color: white;
+    float: left;
+	font-size:20px;
+    font-weight: bold;
+
+}
+#time {
+	background: #8B0000;
+    width: 34.5%;
+    height: 25px;
+    color: white;
+    float: left;
+	font-size:20px;
+    font-weight: bold;
+}
+
+
+#blue {
+    width: 34%;
+    height: 260px;
+	float:left;
+	filter: alpha(opacity=30);
+	
+}
+
+#gray {
+	width: 100%;
+    height: 30%;
+	float:left;
+}
+
+#yellow {
+	width: 100%;
+    height: 70%;
+	float:left;
+}
+
+
+#brown {
+    width: 65.9%;
+    height: 260px;
+	float:left;
+	background-image: url("sand.jpg");
+	background: -webkit-linear-gradient(left, #E6FFFF , #FFFFFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #E6FFFF, #FFFFFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #E6FFFF, #FFFFFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #E6FFFF , #FFFFFF); /* Standard syntax */
+	
+}
+
+#orange {
+	width: 100%;
+    height: 20px;
+	background: #080808;
+	background: -webkit-linear-gradient(left, #080808 , #001A00); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #080808, #001A00); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #080808, #001A00); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #080808 , #001A00); /* Standard syntax */
+    clear: both;
+}
+
+#pink {
+    width: 100%;
+    height: 140px;
+	background: #080808;
+	background: -webkit-linear-gradient(left, #080808 , #001A00); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #080808, #001A00); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #080808, #001A00); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #080808 , #001A00); /* Standard syntax */
+    clear: both;
+}
+
+table {
+	text-align:right;
+	color: #FFFFE6;
+    text-shadow: 2px 2px 4px #000000;
+	font-size:28px;
+}
+
+#state {
+	text-align: left;
+}
+
+#temperature {
+    margin-bottom:5px;
+    font-size:62px;
+    font-weight: bold;
+}
+
+#deg {
+    margin-bottom:5px;
+    font-size:62px;
+    font-weight: bold;
+}
+
+#direction {
+    margin-bottom:5px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#humidity {
+    margin-bottom:5px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#wind {
+    margin-bottom:5px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#uv {
+    margin-bottom:5px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#tit {
+    margin-bottom:5px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#humidity {
+	margin-bottom:5px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#unit {
+    margin-bottom:5px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.forcast {
+	width: 40%;
+    height: 8%;
+	border: 4px solid black;
+}

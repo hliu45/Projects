@@ -1,0 +1,24 @@
+<?php
+	session_start();
+	require 'verify.php';
+	$username = _SESSION['user_name'];
+?>
+
+
+<html>
+<head>
+	<link href="main.css" type="text/css" rel="stylesheet">
+	<title>Rolling Ball</title>
+</head>
+<body>
+	<div>
+		<h3><?php echo $username; ?></h3>
+		<h3>hello</h3>
+	</div>
+	<div class="main_icon">
+		<img id="icon" src="rolling_ball.jpg" alt="game" >
+		<img id="icon" src="rolling_ball.jpg" alt="game" >
+		<img id="icon" src="rolling_ball.jpg" alt="game" >
+	</div>
+</body>
+</html>

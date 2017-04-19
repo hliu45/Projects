@@ -1,0 +1,106 @@
+body {
+	background:  #f2f2f2; 
+}
+
+.personal-session {
+	position:relative;
+	float:right;
+	border: solid golden 1px;
+	margin:10px;
+}
+
+#account {
+	text-decoration:underline;
+}
+
+.tableNews {
+	position: relative;
+	width:95%;
+	border: 2px ridge rgba(20,100,30,0.3);
+	background-color: gray;
+	float:left;
+	clear:both;
+	margin:7px;
+}
+
+#tabledes {
+	width:100%;
+	background-color: gray;
+}
+
+#td1, #td2, #td3, #td4, #td5, #td6 {
+	color: white;
+	float:left;
+	vertical-align: text-top;
+}
+
+#tit1, #tit2, #tit3, #tit4, #tit5, #tit6 {
+	color: white;
+	font-size:18px;
+	font-weight:bold;
+	vertical-align: text-top;
+}
+
+.newsline {
+	margin:5px;
+	background: #ffe6e6; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#ffe6e6, #ffffcc, #d6f5d6); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#ffe6e6, #ffffcc, #d6f5d6); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#ffe6e6, #ffffcc, #d6f5d6); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#ffe6e6, #ffffcc, #d6f5d6); /* Standard syntax */
+}
+
+.news {
+	position: relative;
+	width: 24.7%;
+	height:225px;
+	border: 1px ridge rgba(20,100,30,0.1);
+	float:left;
+}
+
+.news:hover {
+	border: 2px ridge rgba(20,100,30,0.3);
+}
+
+#tablepic1, #tablepic2, #tablepic3, #tablepic4, #tablepic5, #tablepic6 {
+	width:100%;
+	height: 300px;
+	border-radius: 3px;
+}
+
+#column {
+	width:32%;
+}
+
+#pic1,#pic2,#pic3,#pic4,#pic5,#pic6,#pic7,#pic8,#pic9,#pic10,#pic11,#pic12 {
+	position: relative;
+	margin-top:8px;
+	margin-left:12p;
+	margin-right:12px;
+	margin-bottom: 10px;
+	
+	float:left;
+}
+
+#description1,#description2,#description3,#description4,#description5,#description6 {
+	font-family: Georgia;
+	font-size:18px;
+	position: relative;
+	margin: 5px;
+}
+
+#description7,#description8,#description9,#description10,#description11,#description12 {
+	font-family: Georgia;
+	font-size:18px;
+	position: relative;
+	margin: 5px;
+}
+
+#newsBottom {
+	width:95%;
+	position: relative;
+	bottom:0px;
+	margin:3px;
+	float:left;
+	text-align:right;
+}

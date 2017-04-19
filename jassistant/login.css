@@ -1,0 +1,54 @@
+body {
+	background-image: url('login.jpg');
+}
+
+#login {
+	position: relative;
+	top: 100px;
+	border: solid gray 2px;
+	width: 35%;
+	border-radius: 8px;
+	margin: 100px auto;
+	background: white;
+	padding: 30px;
+}
+
+#register {
+	display: table;
+	border: solid gray 5px;
+	width: 50%;
+	border-radius: 8px;
+	margin: 100px auto;
+	background: white;
+	padding: 60px;
+}
+
+#register_warning {
+	position: relative;
+	left: 20px;
+}
+
+#btn {
+	position: relative;
+	color: #F8F8FF;
+	background: #347AB7;
+	padding: 2px;
+	width: 90%;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: 20px;;
+}
+
+#userpwd {
+	position: relative;
+	width: 75%;
+	height: 35px;
+	padding:8px;
+
+}
+
+img {
+	position: relative;
+	margin-left: 20px;
+	top: 12px;
+}

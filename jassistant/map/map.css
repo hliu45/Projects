@@ -1,0 +1,16 @@
+.personal-session {
+	position:relative;
+	float:right;
+	border: solid golden 1px;
+}
+
+#account {
+	text-decoration:underline;
+}
+
+#map {
+	position: relative;
+	margin:50px;
+	width:85%;
+	height:500px;	
+}

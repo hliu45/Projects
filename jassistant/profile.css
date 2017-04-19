@@ -1,0 +1,23 @@
+body {
+	background-image: url('profileImage.jpg');
+}
+
+div {
+	height:560px;
+}
+
+h1 {
+	position: relative;
+	left: 42%;
+	font-weight: bold;
+}
+
+.personal-session {
+	position:relative;
+	float:right;
+	border: solid golden 1px;
+}
+
+#account {
+	text-decoration:underline;
+}
